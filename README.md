@@ -30,4 +30,7 @@ This is the Full-Stack Project for the **Image Tester** application. The project
 ---
 
 ## 📁 Project Structure
+- **Backend - Spring-Boot**
+- **Frontend - React**
+
 
