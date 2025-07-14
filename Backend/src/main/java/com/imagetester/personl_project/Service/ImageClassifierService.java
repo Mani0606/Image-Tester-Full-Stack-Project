@@ -40,8 +40,7 @@ public class ImageClassifierService {
         Criteria<Image, Classifications> criteria = Criteria.builder()
                 .setTypes(Image.class, Classifications.class)
                 .optApplication(Application.CV.IMAGE_CLASSIFICATION)
-                .optModelPath(Paths.get(
-                        "/Users/manideepak/Documents/Zoom/demo/src/main/java/com/Experimental/demo/Model/cifake_two_stream_final_jit3.pt"))
+                .optModelPath(Paths.get(".pt"))
                 .optTranslator(new SimpleTranslator())
                 .optEngine("PyTorch")
                 .build();
