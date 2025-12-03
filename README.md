@@ -20,7 +20,7 @@ This is the Full-Stack Project for the **Image Tester** application. The project
 - **Spring Boot 3.x**
 - **Maven**
 - **Spring Web**
-- **Spring Data JPA (if database is used)**
+- **Spring Data JPA**
 - **MySQL**
 - **Lombok**
 - **ReactJS**
